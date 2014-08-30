@@ -56,7 +56,7 @@ su vagrant -c "ln -s /usr/local/go/misc/vim/compiler/go.vim /home/vagrant/.vim/c
 su vagrant -c "ln -s /usr/local/go/misc/vim/plugin/godoc.vim /home/vagrant/.vim/plugin"
 # Install my vimrc
 su vagrant -c "git clone https://gist.github.com/4953ccde3ac74fd00bfa.git ~/vimrc"
-su vagrant -c "cat ~/vimrc >> .vimrc"
+su vagrant -c "cat ~/vimrc/vimrc >> .vimrc"
 su vagrant -c "rm -rf ~/vimrc"
 su vagrant -c "mkdir -p ~/.vim/bundle"
 su vagrant -c "git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim"
