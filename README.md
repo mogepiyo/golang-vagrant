@@ -5,15 +5,15 @@
 
 To open up virtual box instance,
 * vagrant up vb
+
+To open up aws instance,
+* vagrant up ami --provider=aws
  
 ## Added Feature
 
 * AWS support
 * Automatic syntak check in vim with Syntastic plugin
 * golint
-
-To open up aws instance,
-* vagrant up ami --provider=aws
 
 # golang-vagrant
 
