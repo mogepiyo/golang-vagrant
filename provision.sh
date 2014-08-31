@@ -14,6 +14,9 @@ apt-get install -y vim curl
 # For NFS speedup:
 apt-get install -y nfs-common portmap
 
+# Make
+apt-get install make
+
 # Configure Go & Vim:
 # http://tip.golang.org/misc/vim/readme.txt?m=text
 # Configure Go workspace:
