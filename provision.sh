@@ -65,3 +65,5 @@ su vagrant -c "mkdir -p ~/.vim/bundle"
 su vagrant -c "git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim"
 su vagrant -c "mkdir -p ~/.swap/"
 su vagrant -c "mkdir -p ~/.backup/"
+# go lint
+su vagrant -c "go get github.com/golang/lint/golint"
