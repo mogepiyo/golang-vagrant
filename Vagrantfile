@@ -15,6 +15,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Define AWS vm
   config.vm.define :ami, autostart: false do |ami|
+    ami.omnibus.chef_version = :latest
+
     ami.vm.provider :aws do |aws, override|
       # This VM specific settings
       aws.tags = {'Name' => 'ami', 'Environments' => 'development'}
