@@ -29,8 +29,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       aws.secret_access_key = ENV['AWS_SECRET_ACCESS_KEY']
       aws.region = "ap-northeast-1" # "Tokyo"
       aws.availability_zone = "ap-northeast-1a"
-      aws.keypair_name = "awstom"
       override.ssh.username = "ubuntu"
+      # Please change "awstom" to the name of your key pair 
+      aws.keypair_name = "awstom"
       override.ssh.private_key_path = "~/.ec2/awstom.pem"
     end
 
