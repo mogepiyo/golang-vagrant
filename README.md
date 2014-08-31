@@ -14,6 +14,7 @@ To open up aws instance,
 * AWS support
 * Automatic syntak check in vim with Syntastic plugin
 * golint
+* Go 1.3.1
 
 # golang-vagrant
 
