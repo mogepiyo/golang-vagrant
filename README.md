@@ -1,3 +1,14 @@
+# Fork of cbumgard/golang-vagrant
+
+* vagrant plugin install vagrant-aws
+* vagrant plugin install vagrant-omnibus
+
+To open up virtual box instance,
+* vagrant up vb
+ 
+To open up aws instance,
+* vagrant up ami --provider=aws
+
 # golang-vagrant
 
 Ubuntu 12.04-64 with Go installed as well as Vim and all the Go plugins for Vim
