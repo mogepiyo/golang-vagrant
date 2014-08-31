@@ -68,5 +68,6 @@ su vagrant -c "cd ~/.vim/bundle/vimproc/; make"
 su vagrant -c "git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim"
 su vagrant -c "mkdir -p ~/.swap/"
 su vagrant -c "mkdir -p ~/.backup/"
+su vagrant -c "echo 'colorscheme wombat256mod' >> ~/.vimrc"
 # go lint
 su vagrant -c "go get github.com/golang/lint/golint"
