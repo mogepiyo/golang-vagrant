@@ -15,6 +15,7 @@ apt-get install -y vim curl
 apt-get install -y nfs-common portmap
 
 # Make
+apt-get install -y gcc
 apt-get install -y make
 
 # Configure Go & Vim:
