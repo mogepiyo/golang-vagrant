@@ -70,4 +70,4 @@ su vagrant -c "mkdir -p ~/.swap/"
 su vagrant -c "mkdir -p ~/.backup/"
 su vagrant -c "echo 'colorscheme wombat256mod' >> ~/.vimrc"
 # go lint
-su vagrant -c "go get github.com/golang/lint/golint"
+/usr/local/go/bin/go get github.com/golang/lint/golint
